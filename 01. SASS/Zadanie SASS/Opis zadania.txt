@@ -1,0 +1,21 @@
+[Opis zadania – www.MMCSchool.pl]
+
+1. Pobierz kod HTML z zasobów. 
+
+2. Stwórz plik "reset.scss" i zresetuj w nim box-sizing, maring oraz pdding. 
+
+3. Zaimportuj "reset.scss" do "main.scss".
+
+4. W CSS w html{} daj font-size 10px (przyda się do jednostek REM), a w body{} ustaw czcionkę bezszeryfową. 
+
+5. H1 ma mieć rozmar 3x wiekszy od czcionki ustalonej w html{}. H2 – 2.4x większy, H3 – 1.8x, a paragraf ma mieć wielkość 16px (użyj REM-ów!)
+
+6. Sekcje mają mieć wysokość 25% okna pzeglądarki (użyj wartości, która odwołuje się do wielkości ekranu). Tekst wyśrodkuj.
+
+7. Za pomocą ZMIENNEJ, ustal ten sam kolor H1-H3. Sekcje też mają mieć kolor przypisany do zmiennych. 
+Sekcje parzyste mają mieć inny kolor, niż te nieparzyste (wykorzystaj klasy .odd oraz .even).
+
+8. Stwórz MIXIN'a. W: 100px, H:100px, margin: 30px góra/dół, po bokach ma być obliczany automatycznie.
+BGC lime, border 3px solid black, DIV ma być kółkiem, a nie kwadratem.
+
+9. Dodaj MIXIN'a do DIV'ów z klasą .circle 

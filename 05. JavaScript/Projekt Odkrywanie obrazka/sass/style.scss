@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    transition: .6s;
+}
+
+.item1 {
+    height: 40px;
+    background-image: url('https://cdn.pixabay.com/photo/2019/06/07/10/44/sunset-4257963_960_720.jpg');
+}
+
+.item2 {
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg');
+    background-position: center;
+}
+
+.show {
+    height: 300px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    button {
+        margin: 0 30px;
+        padding: 10px 30px;
+        background: none;
+        border-radius: 5px;
+        border: 2px solid #00cfff;
+        color: #00cfff;
+        box-shadow: 3px 3px 10px #00cfff;
+        font-size: 36px;
+        transition: color .3s, box-shadow .3s;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: #00ffae;
+        box-shadow: 3px 3px 10px #00ffae;
+    }
+
+    .fas {
+        transition: trasform .6s
+    }
+}

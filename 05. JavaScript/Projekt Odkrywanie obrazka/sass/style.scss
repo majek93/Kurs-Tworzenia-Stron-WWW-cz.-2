@@ -21,11 +21,13 @@ body {
 
 .item1 {
     height: 40px;
+    // ta grafika może nie działać, podlinkuj nową :) 
     background-image: url('https://cdn.pixabay.com/photo/2019/06/07/10/44/sunset-4257963_960_720.jpg');
 }
 
 .item2 {
     height: 300px;
+    // ta grafika może nie działać, podlinkuj nową :) 
     background-image: url('https://cdn.pixabay.com/photo/2014/05/03/00/56/summerfield-336672_960_720.jpg');
     background-position: center;
 }
@@ -58,6 +60,6 @@ section {
     }
 
     .fas {
-        transition: transform .6s
+        transition: transform .6s, rotate .6s
     }
 }
